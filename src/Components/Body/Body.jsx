@@ -5,9 +5,7 @@ function Body() {
   const [pesan, setPesan] = useState();
   const [location, setLocation] = useState();
   const [toggle, setToggle] = useState(false);
-  const hehe = {
-    pesan: "Okokokokok",
-  };
+
   function kirim() {
     axios({
       method: "post",
